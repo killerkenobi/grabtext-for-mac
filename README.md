@@ -15,14 +15,16 @@ Installation steps:
     4) make both the setup.py and grabtext.py files executable
           sudo chmod +x setup.py && sudo chmod +x grabtext.py
 
-    5) Run the setup.py script which will install the necessary dependencies for running grabtext.py
+    5) Run the setup.py script which will install the necessary dependencies 
+       for running grabtext.py
           ./setup.py
 
     6) Run the grabtext.py program
           ./grabtext.py
           
           - This program uses the built-in MacOS screenshot feature
-          - The main functionality comes from pytesseract which will take the screenshot and pull text out of it
+          - The main functionality comes from pytesseract which will take 
+            the screenshot and pull text out of it
 
 
 Things to look out for:
@@ -32,6 +34,8 @@ Things to look out for:
 
 Troubleshooting tips:
 
-    The grabtext.py program will automatically populate a path to store the screenshot. If you are getting errors 
-    related to the screenshot not being found then you may need to alter the code to include the proper absolute file path for your system.
+    The grabtext.py program will automatically populate a path to store the screenshot. 
+    If you are getting errors related to the screenshot not being found then you may need 
+    to alter the code to include the proper absolute file path for your system.
+    
           ex. "/Users/[insert user name here]/Desktop/grabtext_app_screenshot.png"
