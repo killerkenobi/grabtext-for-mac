@@ -1,4 +1,5 @@
 # grabtext-for-Mac
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 The grabtext.py program pulls text out of screenshots. You can use this program to pull text out of nearly anything you can take a screenshot of, with a few limitations of course :). This version is for MacOS.
 
