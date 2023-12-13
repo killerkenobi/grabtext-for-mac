@@ -3,6 +3,10 @@ build:
 	echo "installing dependencies..."
 	chmod +x setup.bash && ./setup.bash
 
+.PHONY: dry-run
+dry-run:
+	chmod +x dry-run.bash && ./dry-run.bash
+
 .PHONY: clean
 clean:
 	echo "Running the cleanup script..."

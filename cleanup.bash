@@ -6,8 +6,8 @@ if [[ $(brew deps tesseract | head -c1 | wc -c) -ne 0 ]]; then
 	brew deps tesseract
 	brew uninstall tesseract
 
-    # remove python dependencies (pytesseract)
-    # remove keyboard shortcut to run the program (command + shift + 0)
+    echo "removing additional dependencies..."
+    pip uninstall -y -r requirements.txt
 else
     echo "tesseract cannot be found or is not currently installed..."
 fi
