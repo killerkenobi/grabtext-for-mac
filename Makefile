@@ -2,6 +2,7 @@
 build:
 	echo "installing dependencies..."
 	chmod +x setup.bash && ./setup.bash
+	chmod +x grabtext.py
 
 .PHONY: dry-run
 dry-run:
