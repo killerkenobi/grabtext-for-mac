@@ -45,6 +45,7 @@ Here is a demo of this script in action. I have included some screenshots of Ger
 After running the script and taking a screenshot of the test images, grabtext was able to pull out the text from the following German street signs.
 
 ![German street sign 1](images/german_road_sign1.jpg)
+
 I pulled the following text out of the above image:
 ```StraBen-schaden```. When run through Google Translate I got the following english translation: "Road damage"
 
