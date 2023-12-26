@@ -9,6 +9,9 @@ if [[ $(brew deps tesseract | head -c1 | wc -c) -ne 0 ]]; then
     echo "installing python dependencies..."
     pip3 install -r requirements.txt
 
+    echo "installing language packs..."
+    brew install tesseract-lang
+
     chmod +x grabtext.py
 else
     echo "tesseract is not currently installed..."
