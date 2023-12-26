@@ -39,6 +39,21 @@ If you want to remove grabtext from your system you can run the cleanup script.
 ⚠️ By running the cleanup script you may uninstall dependencies that other software on your system requires to function. Be sure to check before you uninstall.
 
 ---
+### Demo
+Here is a demo of this script in action. I have included some screenshots of German road signs and their english translations that were captured with grabtext.
+
+After running the script and taking a screenshot of the test images, grabtext was able to pull out the text from the following German street signs.
+
+![German street sign 1](images/german_road_sign1.jpg)
+I pulled the following text out of the above image:
+```StraBen-schaden```. When run through Google Translate I got the following english translation: "Road damage"
+
+![German street sign 2](images/german_road_sign2.jpg)
+
+I pulled the following text out of the above image:
+```"Feuerwehrzufahrt Tag und Nacht freihalten!"``` and ```"Widerrechtlich abgesellte Fahrzeuge werden kosenpfchtig abgeschleppt!"```. When run through Google Translate I got the following english translations: "Keep fire department access clear day and night!" and "Vehicles parked illegally will be towed away at a cost!" respectfully.
+
+---
 ### Acknowledgements
 The code in this repo utilizes three core components to function. 
 
